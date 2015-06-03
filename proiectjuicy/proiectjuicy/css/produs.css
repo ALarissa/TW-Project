@@ -1,0 +1,101 @@
+#idprod{
+	display:none;
+}
+#meniu_items{
+	width:830px;
+}
+#imagine{
+	position:relative;
+	float:left;
+	width:450px;
+	height:500px;
+	background-position:center center;
+	background-size:cover;
+}
+#right{
+	position:relative;
+	float:left;
+	width:450px;
+	height:480px;
+	margin-top:100px;
+}
+#nume{
+	font-size:30px;
+	font-family: 'Open Sans', sans-serif;
+	color:#c0392b;
+	font-weight:bold;
+}
+#desc{
+	font-size:18px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top:30px;
+	text-align:justify;
+}
+#price{
+	position:relative;
+	float:left;
+	width:50%;
+	font-size:25px;
+	margin-top:20px;
+	font-family: 'Open Sans', sans-serif;
+	color:#c0392b;
+}
+#grj{
+	position:relative;
+	float:left;
+	width:50%;
+	font-size:25px;
+	margin-top:20px;
+	font-family: 'Open Sans', sans-serif;
+	color:#c0392b;
+	text-align:right;
+}
+#cant{
+	position:relative;
+	float:left;
+	width:100%;
+	margin-top:20px;
+	font-size:25px;
+	font-family: 'Open Sans', sans-serif;
+	color:#c0392b;
+	text-align:center;
+}
+#send{
+	position:relative;
+	float:left;
+	width:100%;
+	margin-top:5px;
+	background-color:#c0392b;
+	color:#fff;
+	font-size:25px;
+	font-family: 'Open Sans', sans-serif;
+	padding:5px 0px 5px 0px;
+	cursor:pointer;
+	text-align:center;
+}
+#cart{
+	position:absolute;
+	width:350px;
+	z-index:1000;
+	right:200px;
+	top:110px;
+	background-color:#eee;
+	border-radius:5px;
+	padding:10px;
+	font-family: 'Open Sans', sans-serif;
+	display:none;
+}
+.textcart{
+	position:relative;
+	float:left;
+	width:290px;
+	margin-bottom:5px;
+}
+.stergecart{
+	position:relative;
+	float:left;
+	width:60px;
+	cursor:pointer;
+	color:#c0392b;
+	margin-bottom:5px;
+}

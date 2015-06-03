@@ -1,0 +1,15 @@
+<html>
+<head>
+<script>
+function getLocation() {
+    navigator.geolocation.getCurrentPosition(showPosition);
+}
+function showPosition(position) {
+	alert(get_api(position.coords.latitude,position.coords.longitude));
+}
+getLocation();
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,49 @@
+#checkout{
+	position:relative;
+	float:left;
+	width:700px;
+	margin-left:150px;
+	z-index:1000;
+	background-color:#eee;
+	border-radius:5px;
+	padding:10px;
+	font-family: 'Open Sans', sans-serif;
+}
+.textcart{
+	position:relative;
+	float:left;
+	width:640px;
+	margin-bottom:5px;
+}
+.stergecart{
+	position:relative;
+	float:left;
+	width:60px;
+	cursor:pointer;
+	color:#c0392b;
+	margin-bottom:5px;
+}
+#adress{
+	position:relative;
+	float:left;
+	width:400px;
+	margin-left:300px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	margin-top:20px;
+}
+#sendc{
+	position:relative;
+	float:left;
+	width:400px;
+	margin-left:300px;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	margin-top:10px;
+	color:#fff;
+	background-color:#c0392b;
+	padding-top:4px;
+	cursor:pointer;
+	padding-bottom:4px;
+}

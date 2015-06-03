@@ -1,0 +1,270 @@
+body{
+	margin:0px;
+}
+#meniu{
+	position:relative;
+	float:left;
+	width:100%;
+	height:100px;
+	border-top:solid 3px #F39C12;
+}
+#meniu_inside{
+	position:relative;
+	float:left;
+	width:1000px;
+	height:100%;
+	left:50%;
+	margin-left:-500px;
+}
+#logo{
+	position:relative;
+	float:left;
+	width:80px;
+	margin-top:10px;
+	
+}
+#meniu_items{
+	position:relative;
+	float:right;
+	width:700px;
+	height:100%;
+
+}
+#meniu_items a{
+	color:#333;
+	position:relative;
+	float:left;
+	margin-left:80px;
+	height:100%;
+	line-height:100px;
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+#meniu_items a:hover{
+	color:green;
+}
+#slider{
+	position:relative;
+	float:left;
+	width:100%;
+	height:600px;
+	overflow:hidden;
+}
+#slider_all{
+	position:relative;
+	float:left;
+	width:300%;
+	height:600px;
+	transition:margin-left 1s;
+}
+.slide{
+	position:relative;
+	float:left;
+	width:33.333%;
+	height:100%;
+	text-align:center;
+}
+#slide1{
+	background-image:url(../images/slider1.jpg);
+	background-size:cover;
+}
+#slide2{
+	background-image:url(../images/slider2.jpg);
+	background-size:cover;
+}
+#slide3{
+	background-image:url(../images/slider3.jpg);
+	background-size:cover;
+}
+#content{
+	position:relative;
+	float:left;
+	width:1000px;
+	left:50%;
+	margin-left:-500px;
+	min-height:500px;
+}/*
+#submenu{
+	position:relative;
+	float:left;
+	width:100%;
+	height:70px;
+}
+.submenuitem{
+	position:relative;
+	float:left;
+	width:33.3%;
+	height:100%;
+}
+.submenuitem{
+	color:#333;
+	position:relative;
+	float:left;
+	height:100%;
+	line-height:100px;
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+.submenuitem img{
+	position:relative;
+	float:left;
+	width:70px;
+	height:70px;
+}
+.submenuitem span{
+	position:relative;
+	float:left;
+	height:70px;
+	line-height:70px;
+	margin-left:20px;
+}*/
+.subtitle{
+	margin-top:200px;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size:35px;
+	text-shadow:1px 1px 2px #333;
+}
+.title{
+	margin-top:20px;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size:60px;
+	text-shadow:1px 1px 2px #333;
+}
+.descriere{
+	margin-top:20px;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size:15px;
+	text-shadow:1px 1px 2px #333;
+}
+#offers{
+	position:relative;
+	float:left;
+	width:1000px;
+	height:250px;
+	left:50%;
+	margin-left:-500px;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.offer{
+	position:relative;
+	float:left;
+	width:29.33%;
+	margin:0 2% 0 2%;
+	height:100%;
+	background-color:#efefef;
+	border-radius:5px;
+	overflow:hidden;
+}
+.promoimg{
+	position:relative;
+	float:left;
+	width:100%;
+	height:200px;
+	max-width:100%;
+	background-size:cover;
+	background-position:center;
+}
+.numeoffer{
+	position:position:relative;
+	float:left;
+	color:#E87E04;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	margin-top:10px;
+	font-size:20px;
+	padding-left:5px;
+}
+.procentoffer{
+	position:position:relative;
+	float:right;
+	color:#E87E04;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	margin-top:10px;
+	font-size:20px;
+	padding-right:5px;
+}
+#footer{
+	position:relative;
+	float:left;
+	width:100%;
+	height:30px;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:13px;
+	color:#fff;
+	background-color:#F39C12;
+	line-height:30px;
+}
+#chk{
+	background-color:#c0392b;
+	color:#fff;
+	text-decoration:none;
+	padding:4px;
+	border-radius:5px;
+	position:relative;
+	float:left;
+	margin-top:5px;
+}
+#contact{
+	position:relative;
+	float:left;
+	left:50%;
+	margin-left:-300px;
+	width:600px;
+	height:570px;
+	clear:both;
+	background-color:#eee;
+	border-radius:5px;
+	box-shadow:0px 0px 3px #ccc;
+}
+#contact input{
+	position:relative;
+	float:left;
+	width:90%;
+	margin:5px 0px 5px 0px;
+	margin-left:5%;
+	border:solid 1px #ccc;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	padding:7px;
+}
+#contact textarea{
+	position:relative;
+	float:left;
+	width:90%;
+	margin:5px 0px 5px 0px;
+	margin-left:5%;
+	border:solid 1px #ccc;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	padding:7px;
+}
+#subcon{
+	background-color:#ccc;
+	color:#fff;
+	border:0;
+	cursor:pointer;
+}
+h2{
+	position:relative;
+	float:left;
+	left:50%;
+	margin-left:-200px;
+	width:400px;
+	clear:both;
+	margin-top:80px;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	color:#777;
+}
